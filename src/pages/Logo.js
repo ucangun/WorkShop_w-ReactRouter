@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/img/logo_brush.png";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
@@ -32,7 +33,9 @@ const Logo = () => {
         rerum ab at? Iure consectetur debitis illum totam, quam eaque ipsum quo
         esse at nulla suscipit soluta. Incidunt labore alias dignissimos.
       </p>
-      <button className="button_1">Go Back</button>
+      <Link to="/">
+        <button className="button_1">Go Back</button>
+      </Link>
     </div>
   );
 };

@@ -1,3 +1,9 @@
+import Card from "../components/card/Card";
+import Subscribe from "../components/subscribe/Subscribe";
+import html from "../assets/img/logo_html.png";
+import css from "../assets/img/logo_css.png";
+import brush from "../assets/img/logo_brush.png";
+
 const Home = () => {
   return (
     <div className="root">
@@ -11,9 +17,13 @@ const Home = () => {
           </p>
         </div>
       </section>
-      {/* use Subscribe component here */}
+      <Subscribe />
       <section id="boxes">
-        <div className="container">{/* use Card component here */}</div>
+        <div className="container">
+          <Card src={html} title={"HTML 5"} url="/html" />
+          <Card src={css} title={"CSS 3"} url="/css" />
+          <Card src={brush} title={"GRAPHIC DESIGN"} url="/logo" />
+        </div>
       </section>
     </div>
   );

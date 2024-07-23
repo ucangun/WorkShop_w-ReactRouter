@@ -5,7 +5,7 @@ const Card = ({ src, url, title }) => {
   return (
     <div className="box">
       <Link to={url}>
-        <img src={src} alt="" />
+        <img src={src} alt="src" />
       </Link>
       <h3>{title}</h3>
       <p>

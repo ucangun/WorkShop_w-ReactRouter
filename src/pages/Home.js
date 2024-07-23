@@ -20,9 +20,9 @@ const Home = () => {
       <Subscribe />
       <section id="boxes">
         <div className="container">
-          <Card src={html} title={"HTML 5"} url="/html" />
-          <Card src={css} title={"CSS 3"} url="/css" />
-          <Card src={brush} title={"GRAPHIC DESIGN"} url="/logo" />
+          <Card src={html} title="HTML 5" url="/html" />
+          <Card src={css} title="CSS 3" url="/css" />
+          <Card src={brush} title="GRAPHIC DESIGN" url="/logo" />
         </div>
       </section>
     </div>

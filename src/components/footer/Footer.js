@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <p>Clarusway Web Design, Copyright &copy; 2020</p>
         <br />
-        <a href="https://clarusway.com/" rel="noreferrer" target="_blank" re>
+        <a href="https://clarusway.com/" rel="noreferrer" target="_blank">
           <img
             src="https://clarusway.com/wp-content/uploads/2022/12/clarusway-logo-black.png"
             width="200"
